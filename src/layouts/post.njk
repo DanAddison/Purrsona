@@ -3,6 +3,7 @@ layout: base
 ---
 <article>
     <h1>{{ title }}</h1>
+    <img src="{{ featuredImage | url }}" alt="{{ featuredImage }}"></img>
     <p>{{ date | dateToFormat('DD') }}</p>
     {{ content | safe }}
 </article>
