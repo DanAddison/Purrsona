@@ -17,7 +17,9 @@
     <div class="layout" role="document">
         {% include "header.njk" %}
         <main id="main" class="main" tabindex="-1">
-            {{ content | safe }}
+            <div class="container">
+                {{ content | safe }}
+            </div>
         </main>
         {% include "footer.njk" %}
     </div>
