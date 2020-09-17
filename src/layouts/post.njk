@@ -1,9 +1,9 @@
 ---
 layout: base
 ---
-<article>
-    <h1>{{ title }}</h1>
-    <img src="{{ featuredImage | url }}" alt="{{ featuredImage }}"></img>
-    <p>{{ date | dateToFormat('DD') }}</p>
+<article class="post">
+    <p class="post__date">Posted: {{ date | dateToFormat('DD') }}</p>
+    <h1 class="post__title">{{ title }}</h1>
+    <img src="{{ featuredImage | url }}" alt="{{ featuredImage }}" class="post__image"></img>
     {{ content | safe }}
 </article>
