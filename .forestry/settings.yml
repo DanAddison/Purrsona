@@ -1,27 +1,25 @@
 ---
 new_page_extension: md
 auto_deploy: false
-admin_path: 
+admin_path: ''
 webhook_url: 
 sections:
 - type: document
   path: src/index.njk
   label: Home Page
-  match: "**/*"
-  read_only: false
 - type: directory
   path: src/pages
   label: Pages
   create: all
   match: "**/*"
-  new_doc_ext: ".njk"
+  new_doc_ext: njk
 - type: directory
   path: src/posts
   label: Posts
   create: all
   match: "**/*"
   exclude: "*.json"
-  new_doc_ext: ".md"
+  new_doc_ext: md
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
