@@ -4,6 +4,6 @@ layout: base
 <article class="post">
     <p class="post__date">Posted: {{ date | dateToFormat('DD') }}</p>
     <h1 class="post__title">{{ title }}</h1>
-    <img src="{{ featuredImage | url }}" alt="{{ featuredImage }}" class="post__image"></img>
+    <img src="{{ featuredImage | url }}?nf_resize=smartcrop&w=200&h=200" alt="{{ featuredImage }}" class="post__image"></img>
     {{ content | safe }}
 </article>
