@@ -20,7 +20,7 @@ sections:
   match: "**/*"
   exclude: "*.json"
   new_doc_ext: md
-upload_dir: https://purrsona.netlify.app/uploads
+upload_dir: uploads
 public_path: https://purrsona.netlify.app/uploads
 front_matter_path: ''
 use_front_matter_path: 
