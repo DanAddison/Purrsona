@@ -6,6 +6,7 @@
       {{ post.data.title }}
       </a>
     </h2>
+    <time datetime="{{ post.date | dateToISO }}">{{ post.date | dateToFormat('DD') }}</time>
     <p>{{ post.data.excerpt }}</p>
   </li>
 {%- endfor -%}
