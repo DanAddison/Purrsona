@@ -1,0 +1,17 @@
+---
+label: Blog post
+hide_body: false
+display_field: title
+fields:
+- type: boolean
+  name: favorite
+  label: favorite
+- type: text
+  name: title
+  label: title
+- type: text
+  name: excerpt
+  label: excerpt
+- type: datetime
+  name: date
+  label: date
