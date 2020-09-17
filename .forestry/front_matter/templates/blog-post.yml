@@ -20,6 +20,8 @@ fields:
   config:
     maxSize: 4
   label: Featured Image
+  description: This will be automatically cropped and resized to 600px width x 200px
+    height
 pages:
 - src/posts/hello-world.md
 - src/posts/sample-post.md
