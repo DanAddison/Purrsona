@@ -4,7 +4,7 @@
   </a>
 </div>
 
-# Eleventous
+# Purrsona
 
 A simple Eleventy Starter Kit, my base for all new 11ty projects.
 
@@ -52,9 +52,9 @@ Currently, critical CSS will only be inlined in the head of the homepage. This i
 
 ## Credits
 
-This is basically just [Eleventastic](https://github.com/maxboeck/eleventastic) by Max Boeck.
+This is basically [Eleventastic](https://github.com/maxboeck/eleventastic) by Max Boeck.
 
-I've just added a little more flesh on its bones (mostly just content) to make things even quicker to get up and running.
+I've just added a little more flesh on its bones to make things even quicker to get up and running.
 
 Max in turn credits the following for influencing Eleventastic:
 
