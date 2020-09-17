@@ -20,5 +20,10 @@ module.exports = {
             chars.unshift(['&#', str[i].charCodeAt(), ';'].join(''))
         }
         return chars.join('')
+    },
+
+    favorites: function (arr) {
+        const favs = post => post.data.favorite;
+        return arr.filter(favs);
     }
 }

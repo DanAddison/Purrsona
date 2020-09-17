@@ -1,5 +1,6 @@
+{# using my favorites filter to output only selected posts #}
 <ul class="posts-list">
-{%- for post in collections.posts -%}
+{%- for post in collections.posts | favorites -%}
   <li class="posts-list__item">
     <h2>
       <a href="{{ post.url }}">

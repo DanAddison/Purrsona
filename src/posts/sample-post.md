@@ -1,4 +1,5 @@
 ---
+favorite: true
 title: An example post.
 excerpt: Lacus vestibulum sed arcu non odio euismod lacinia at.  Non nisi est sit
   amet facilisis magna.
