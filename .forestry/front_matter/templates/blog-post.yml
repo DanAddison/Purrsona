@@ -22,3 +22,4 @@ fields:
   label: Featured Image
 pages:
 - src/posts/hello-world.md
+- src/posts/sample-post.md
