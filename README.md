@@ -1,6 +1,6 @@
 <div align="center">
   <a href="">
-    <img alt="" src="src/assets/images/Eleventous-screenshot.jpg" width="800" />
+    <img alt="" src="src/assets/images/Purrsona_screenshot.png" width="700" />
   </a>
 </div>
 
@@ -49,6 +49,9 @@ For example, if you have a `github.svg` file in that folder, you can display it 
 ## Critical CSS
 
 Currently, critical CSS will only be inlined in the head of the homepage. This is done by using the [critical](https://github.com/addyosmani/critical) package in an automatic transform.
+
+## Deployment
+[![Netlify Status](https://api.netlify.com/api/v1/badges/6004f385-4fb2-46b5-a11b-eba408c8f646/deploy-status)](https://app.netlify.com/sites/purrsona/deploys)
 
 ## Credits
 
