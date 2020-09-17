@@ -18,7 +18,7 @@ fields:
 - name: featuredImage
   type: file
   config:
-    maxSize: 64
+    maxSize: 4
   label: Featured Image
 pages:
 - src/posts/hello-world.md
