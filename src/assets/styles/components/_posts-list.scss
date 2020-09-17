@@ -1,10 +1,24 @@
-.posts-list {
-
-  &__item {
+.posts-list__item {
+    margin-top: $spacing;
     margin-bottom: $spacing;
 
     h2 {
       margin-bottom: 0;
+
+      a {
+          text-decoration: none;
+      }
     }
-  }
+
+    time {
+        color: rgba($color-white, .6);
+    }
+}
+
+
+.posts-list__excerpt {
+    a {
+        padding-left: .75em;
+        color: rgba($color-white, .6);
+    }
 }

@@ -48,9 +48,9 @@ h2 {
     font-weight: 700;
 }
 
-// p {
-//     margin: 0;
-// }
+p {
+    max-width: 80ch; // restrict width to 80 characters everywhere for readability
+}
 
 a {
   color: $color-white;
@@ -74,4 +74,11 @@ ul {
   list-style: none;
   margin: 0;
   padding-left: 0;
+}
+
+blockquote {
+    margin: $spacing 0;
+    padding: 0 $spacing;
+    border-left: 3px solid $color-green;
+    color: $color-green;
 }

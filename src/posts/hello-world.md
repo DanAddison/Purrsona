@@ -2,7 +2,7 @@
 favorite: true
 title: Hello world!
 excerpt: Nullam ac tortor vitae purus faucibus. Et sollicitudin ac orci phasellus
-  egestas tellus rutrum.
+  egestas.
 date: 2020-08-31T23:00:00.000+00:00
 featuredImage: "/uploads/2020/09/matt-hardy-6arttluciua-unsplash.jpg"
 
