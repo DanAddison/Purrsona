@@ -7,6 +7,7 @@ sections:
 - type: document
   path: src/index.njk
   label: Home Page
+  read_only: true
 - type: directory
   path: src/pages
   label: Pages
